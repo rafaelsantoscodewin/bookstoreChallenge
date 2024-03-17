@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "j6dzAzeS6vlJoV8OMlQ0z8b6twN92X5QTWqSlGaIBeyY3WnR4iyhvr17/mgdGlm6nWa/0ETANKy88/AdZTpDPQ==",
+  "dgSpecHash": "/B5QGqOxWI7lx4ymlA+7hxERr+J+Ve/Ezlyns+sG72TAl+xE8zSfa92CYytv8WNA3X+OkCXzQxqDAO9fvI9a9Q==",
   "success": true,
   "projectFilePath": "C:\\CodeWin\\bookstoreChallenge\\bookstoreChallenge.business\\bookstoreChallenge.business.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\User01\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
+    "C:\\Users\\User01\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\User01\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

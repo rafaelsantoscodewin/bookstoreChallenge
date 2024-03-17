@@ -7,10 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="UseCases\Book\GetAllBooks\" />
-    <Folder Include="UseCases\Book\GetBookById\" />
-    <Folder Include="UseCases\Book\" />
-    <Folder Include="UseCases\File\GetFileById\" />
+    <PackageReference Include="MediatR" Version="12.2.0" />
   </ItemGroup>
 
 </Project>
