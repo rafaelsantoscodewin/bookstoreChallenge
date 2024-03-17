@@ -31,3 +31,4 @@ C:\CodeWin\bookstoreChallenge\bookstoreChallenge\obj\Debug\net7.0\refint\booksto
 C:\CodeWin\bookstoreChallenge\bookstoreChallenge\obj\Debug\net7.0\bookstoreChallenge.app.pdb
 C:\CodeWin\bookstoreChallenge\bookstoreChallenge\obj\Debug\net7.0\bookstoreChallenge.app.genruntimeconfig.cache
 C:\CodeWin\bookstoreChallenge\bookstoreChallenge\obj\Debug\net7.0\ref\bookstoreChallenge.app.dll
+C:\CodeWin\bookstoreChallenge\bookstoreChallenge\bin\Debug\net7.0\Newtonsoft.Json.dll
