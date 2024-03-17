@@ -1,8 +1,8 @@
 {
   "Version": 1,
-  "Hash": "/FOh6yi25bF9g+Lp5F23OInSwplIgvszfsjep83ss1U=",
-  "Source": "bookstoreChallenge",
-  "BasePath": "_content/bookstoreChallenge",
+  "Hash": "aquOL5c9GpAVmLroJAhKjyoTAWjf81PexLevFcBfi6I=",
+  "Source": "bookstoreChallenge.app",
+  "BasePath": "_content/bookstoreChallenge.app",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],

@@ -1,0 +1,11 @@
+C:\CodeWin\bookstoreChallenge\bookstoreChallenge.mongo\bin\Debug\net7.0\bookstoreChallenge.mongo.deps.json
+C:\CodeWin\bookstoreChallenge\bookstoreChallenge.mongo\bin\Debug\net7.0\bookstoreChallenge.mongo.dll
+C:\CodeWin\bookstoreChallenge\bookstoreChallenge.mongo\bin\Debug\net7.0\bookstoreChallenge.mongo.pdb
+C:\CodeWin\bookstoreChallenge\bookstoreChallenge.mongo\obj\Debug\net7.0\bookstoreChallenge.mongo.GeneratedMSBuildEditorConfig.editorconfig
+C:\CodeWin\bookstoreChallenge\bookstoreChallenge.mongo\obj\Debug\net7.0\bookstoreChallenge.mongo.AssemblyInfoInputs.cache
+C:\CodeWin\bookstoreChallenge\bookstoreChallenge.mongo\obj\Debug\net7.0\bookstoreChallenge.mongo.AssemblyInfo.cs
+C:\CodeWin\bookstoreChallenge\bookstoreChallenge.mongo\obj\Debug\net7.0\bookstoreChallenge.mongo.csproj.CoreCompileInputs.cache
+C:\CodeWin\bookstoreChallenge\bookstoreChallenge.mongo\obj\Debug\net7.0\bookstoreChallenge.mongo.dll
+C:\CodeWin\bookstoreChallenge\bookstoreChallenge.mongo\obj\Debug\net7.0\refint\bookstoreChallenge.mongo.dll
+C:\CodeWin\bookstoreChallenge\bookstoreChallenge.mongo\obj\Debug\net7.0\bookstoreChallenge.mongo.pdb
+C:\CodeWin\bookstoreChallenge\bookstoreChallenge.mongo\obj\Debug\net7.0\ref\bookstoreChallenge.mongo.dll

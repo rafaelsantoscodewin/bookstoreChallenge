@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nfALyY0/dUS/y3awQOAnPw5k/fVW0BPdjAxX4Y+Pt9/a1UyhZR85f5dOjxvqs4TEdq81qZ51sNM+FffYa9LMyQ==",
+  "dgSpecHash": "5rXQi11QPwAVnYRAZlLKGTl7WVOys59kIV8V+IlFXmnNacDRWFz56REtsh6KU54hxjvlr7DBlo6ocpqpFjIgJw==",
   "success": true,
-  "projectFilePath": "C:\\CodeWin\\bookstoreChallenge\\bookstoreChallenge\\bookstoreChallenge.csproj",
+  "projectFilePath": "C:\\CodeWin\\bookstoreChallenge\\bookstoreChallenge\\bookstoreChallenge.app.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User01\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.13\\microsoft.aspnetcore.openapi.7.0.13.nupkg.sha512",
     "C:\\Users\\User01\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",

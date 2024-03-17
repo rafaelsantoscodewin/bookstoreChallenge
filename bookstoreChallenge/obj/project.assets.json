@@ -475,9 +475,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\CodeWin\\bookstoreChallenge\\bookstoreChallenge\\bookstoreChallenge.csproj",
-      "projectName": "bookstoreChallenge",
-      "projectPath": "C:\\CodeWin\\bookstoreChallenge\\bookstoreChallenge\\bookstoreChallenge.csproj",
+      "projectUniqueName": "C:\\CodeWin\\bookstoreChallenge\\bookstoreChallenge\\bookstoreChallenge.app.csproj",
+      "projectName": "bookstoreChallenge.app",
+      "projectPath": "C:\\CodeWin\\bookstoreChallenge\\bookstoreChallenge\\bookstoreChallenge.app.csproj",
       "packagesPath": "C:\\Users\\User01\\.nuget\\packages\\",
       "outputPath": "C:\\CodeWin\\bookstoreChallenge\\bookstoreChallenge\\obj\\",
       "projectStyle": "PackageReference",

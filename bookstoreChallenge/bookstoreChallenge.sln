@@ -3,7 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34221.43
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bookstoreChallenge", "bookstoreChallenge.csproj", "{844CEAAD-E0A9-44E4-9355-71002DC312E0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bookstoreChallenge.app", "bookstoreChallenge.app.csproj", "{844CEAAD-E0A9-44E4-9355-71002DC312E0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Application", "1. Application", "{3B7EEBD8-276A-47C9-92F5-D681480DB650}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Business", "2. Business", "{92A9B41B-E60E-4721-A60B-4FC440C9F040}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Data", "3. Data", "{C2D76081-C89A-4697-8F1E-A24CE626AE01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bookstoreChallenge.business", "..\bookstoreChallenge.business\bookstoreChallenge.business.csproj", "{72910603-8A59-4A04-8F58-D05B689489E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bookstoreChallenge.mongo", "..\bookstoreChallenge.mongo\bookstoreChallenge.mongo.csproj", "{31BE1753-7F28-4855-B6C3-FDB504E533B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bookstoreChallenge.sql", "..\bookstoreChallenge.sql\bookstoreChallenge.sql.csproj", "{5DFEBE1C-2EAD-4C76-836A-137C827673D7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +27,27 @@ Global
 		{844CEAAD-E0A9-44E4-9355-71002DC312E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{844CEAAD-E0A9-44E4-9355-71002DC312E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{844CEAAD-E0A9-44E4-9355-71002DC312E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72910603-8A59-4A04-8F58-D05B689489E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72910603-8A59-4A04-8F58-D05B689489E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72910603-8A59-4A04-8F58-D05B689489E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72910603-8A59-4A04-8F58-D05B689489E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31BE1753-7F28-4855-B6C3-FDB504E533B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31BE1753-7F28-4855-B6C3-FDB504E533B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31BE1753-7F28-4855-B6C3-FDB504E533B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31BE1753-7F28-4855-B6C3-FDB504E533B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DFEBE1C-2EAD-4C76-836A-137C827673D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DFEBE1C-2EAD-4C76-836A-137C827673D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DFEBE1C-2EAD-4C76-836A-137C827673D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DFEBE1C-2EAD-4C76-836A-137C827673D7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{844CEAAD-E0A9-44E4-9355-71002DC312E0} = {3B7EEBD8-276A-47C9-92F5-D681480DB650}
+		{72910603-8A59-4A04-8F58-D05B689489E4} = {92A9B41B-E60E-4721-A60B-4FC440C9F040}
+		{31BE1753-7F28-4855-B6C3-FDB504E533B9} = {C2D76081-C89A-4697-8F1E-A24CE626AE01}
+		{5DFEBE1C-2EAD-4C76-836A-137C827673D7} = {C2D76081-C89A-4697-8F1E-A24CE626AE01}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {64FEF619-827E-40CD-92A7-D413833E9FA8}

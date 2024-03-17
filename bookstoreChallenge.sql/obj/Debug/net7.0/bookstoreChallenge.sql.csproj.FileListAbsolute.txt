@@ -1,0 +1,11 @@
+C:\CodeWin\bookstoreChallenge\bookstoreChallenge.sql\bin\Debug\net7.0\bookstoreChallenge.sql.deps.json
+C:\CodeWin\bookstoreChallenge\bookstoreChallenge.sql\bin\Debug\net7.0\bookstoreChallenge.sql.dll
+C:\CodeWin\bookstoreChallenge\bookstoreChallenge.sql\bin\Debug\net7.0\bookstoreChallenge.sql.pdb
+C:\CodeWin\bookstoreChallenge\bookstoreChallenge.sql\obj\Debug\net7.0\bookstoreChallenge.sql.GeneratedMSBuildEditorConfig.editorconfig
+C:\CodeWin\bookstoreChallenge\bookstoreChallenge.sql\obj\Debug\net7.0\bookstoreChallenge.sql.AssemblyInfoInputs.cache
+C:\CodeWin\bookstoreChallenge\bookstoreChallenge.sql\obj\Debug\net7.0\bookstoreChallenge.sql.AssemblyInfo.cs
+C:\CodeWin\bookstoreChallenge\bookstoreChallenge.sql\obj\Debug\net7.0\bookstoreChallenge.sql.csproj.CoreCompileInputs.cache
+C:\CodeWin\bookstoreChallenge\bookstoreChallenge.sql\obj\Debug\net7.0\bookstoreChallenge.sql.dll
+C:\CodeWin\bookstoreChallenge\bookstoreChallenge.sql\obj\Debug\net7.0\refint\bookstoreChallenge.sql.dll
+C:\CodeWin\bookstoreChallenge\bookstoreChallenge.sql\obj\Debug\net7.0\bookstoreChallenge.sql.pdb
+C:\CodeWin\bookstoreChallenge\bookstoreChallenge.sql\obj\Debug\net7.0\ref\bookstoreChallenge.sql.dll
