@@ -32,3 +32,7 @@ C:\CodeWin\bookstoreChallenge\bookstoreChallenge\obj\Debug\net7.0\bookstoreChall
 C:\CodeWin\bookstoreChallenge\bookstoreChallenge\obj\Debug\net7.0\bookstoreChallenge.app.genruntimeconfig.cache
 C:\CodeWin\bookstoreChallenge\bookstoreChallenge\obj\Debug\net7.0\ref\bookstoreChallenge.app.dll
 C:\CodeWin\bookstoreChallenge\bookstoreChallenge\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\CodeWin\bookstoreChallenge\bookstoreChallenge\bin\Debug\net7.0\AutoMapper.dll
+C:\CodeWin\bookstoreChallenge\bookstoreChallenge\bin\Debug\net7.0\MediatR.dll
+C:\CodeWin\bookstoreChallenge\bookstoreChallenge\bin\Debug\net7.0\MediatR.Contracts.dll
+C:\CodeWin\bookstoreChallenge\bookstoreChallenge\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
