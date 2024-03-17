@@ -24,10 +24,10 @@ namespace bookstoreChallenge.business.UseCases.Book.GetBookById
                 Author = "Name Surname",
                 Publisher = "Publisher Test",
                 ISBN = "123456-789101112-13141516-1718192021",
-                Image = new ImageFile(),
+                Image = new ImageFile { Id = request.Id, Name = "Image", Extension = "jpeg", Data = new byte[] { 1, 2, 3, 4, 5 } },
                 Price = 24.55d,
-                Status = Enum.BookStatus.Active,
-                Genre = Enum.BookGenre.Fiction
+                Status = true,
+                Genre = "Fiction"
             };
 
             return Task.FromResult(book);

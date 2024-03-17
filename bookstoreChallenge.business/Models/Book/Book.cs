@@ -1,5 +1,4 @@
 ﻿using bookstoreChallenge.business.Core.Common;
-using bookstoreChallenge.business.Enum;
 using bookstoreChallenge.business.Models.File;
 
 namespace bookstoreChallenge.business.Models.Book
@@ -12,7 +11,7 @@ namespace bookstoreChallenge.business.Models.Book
         public string ISBN { get; set; }
         public ImageFile Image { get; set; }
         public double Price { get; set; }
-        public BookStatus Status { get; set; }
-        public BookGenre Genre { get; set; }
+        public bool Status { get; set; }
+        public string Genre { get; set; }
     }
 }

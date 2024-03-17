@@ -24,8 +24,8 @@ namespace bookstoreChallenge.business.UseCases.Book.GetAllBooks
                 ISBN = "123456-789101112-13141516-1718192021",
                 Image = new ImageFile(),
                 Price = 24.55d,
-                Status = Enum.BookStatus.Active,
-                Genre = Enum.BookGenre.Fantasy
+                Status = true,
+                Genre = "Fantasy"
 
             };
 
@@ -38,8 +38,8 @@ namespace bookstoreChallenge.business.UseCases.Book.GetAllBooks
                 ISBN = "123456-789101112-13141516-1718192021",
                 Image = new ImageFile(),
                 Price = 24.55d,
-                Status = Enum.BookStatus.Active,
-                Genre = Enum.BookGenre.Drama
+                Status = true,
+                Genre = "Drama"
 
             };
 
@@ -52,8 +52,8 @@ namespace bookstoreChallenge.business.UseCases.Book.GetAllBooks
                 ISBN = "123456-789101112-13141516-1718192021",
                 Image = new ImageFile(),
                 Price = 24.55d,
-                Status = Enum.BookStatus.Inactive,
-                Genre = Enum.BookGenre.Adventure
+                Status = false,
+                Genre = "Adventure"
 
             };
 
