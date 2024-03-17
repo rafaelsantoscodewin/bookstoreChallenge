@@ -48,6 +48,19 @@
           }
         }
       },
+      "MediatR.Extensions.Microsoft.DependencyInjection/11.0.0": {
+        "type": "package",
+        "dependencies": {
+          "MediatR": "11.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.1/MediatR.Extensions.Microsoft.DependencyInjection.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/MediatR.Extensions.Microsoft.DependencyInjection.dll": {}
+        }
+      },
       "Microsoft.AspNetCore.Authorization/2.1.1": {
         "type": "package",
         "dependencies": {
@@ -521,6 +534,19 @@
             "related": ".xml"
           }
         }
+      },
+      "bookstoreChallenge.business/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "MediatR": "12.2.0"
+        },
+        "compile": {
+          "bin/placeholder/bookstoreChallenge.business.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/bookstoreChallenge.business.dll": {}
+        }
       }
     }
   },
@@ -568,6 +594,19 @@
         "lib/netstandard2.0/MediatR.Contracts.xml",
         "mediatr.contracts.2.0.1.nupkg.sha512",
         "mediatr.contracts.nuspec"
+      ]
+    },
+    "MediatR.Extensions.Microsoft.DependencyInjection/11.0.0": {
+      "sha512": "jfD2NBYvP+HiUil2DWfM4bn+bCLp4H2xvoc9aorcnn2Jpgz7Ey8RyYMpgqeF3bs6CP6t8pzb6WkF5NFF/1RLHA==",
+      "type": "package",
+      "path": "mediatr.extensions.microsoft.dependencyinjection/11.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "gradient_128x128.png",
+        "lib/netstandard2.1/MediatR.Extensions.Microsoft.DependencyInjection.dll",
+        "mediatr.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
+        "mediatr.extensions.microsoft.dependencyinjection.nuspec"
       ]
     },
     "Microsoft.AspNetCore.Authorization/2.1.1": {
@@ -1775,15 +1814,22 @@
         "system.threading.tasks.4.3.0.nupkg.sha512",
         "system.threading.tasks.nuspec"
       ]
+    },
+    "bookstoreChallenge.business/1.0.0": {
+      "type": "project",
+      "path": "../bookstoreChallenge.business/bookstoreChallenge.business.csproj",
+      "msbuildProject": "../bookstoreChallenge.business/bookstoreChallenge.business.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
       "AutoMapper >= 13.0.1",
       "MediatR >= 12.2.0",
+      "MediatR.Extensions.Microsoft.DependencyInjection >= 11.0.0",
       "Microsoft.AspNetCore.OpenApi >= 7.0.13",
       "Microsoft.AspNetCore.SignalR.Core >= 1.0.15",
-      "Swashbuckle.AspNetCore >= 6.5.0"
+      "Swashbuckle.AspNetCore >= 6.5.0",
+      "bookstoreChallenge.business >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -1818,7 +1864,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\CodeWin\\bookstoreChallenge\\bookstoreChallenge.business\\bookstoreChallenge.business.csproj": {
+              "projectPath": "C:\\CodeWin\\bookstoreChallenge\\bookstoreChallenge.business\\bookstoreChallenge.business.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -1838,6 +1888,10 @@
           "MediatR": {
             "target": "Package",
             "version": "[12.2.0, )"
+          },
+          "MediatR.Extensions.Microsoft.DependencyInjection": {
+            "target": "Package",
+            "version": "[11.0.0, )"
           },
           "Microsoft.AspNetCore.OpenApi": {
             "target": "Package",

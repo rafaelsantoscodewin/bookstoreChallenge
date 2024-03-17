@@ -9,3 +9,4 @@ C:\CodeWin\bookstoreChallenge\bookstoreChallenge.business\obj\Debug\net7.0\books
 C:\CodeWin\bookstoreChallenge\bookstoreChallenge.business\obj\Debug\net7.0\refint\bookstoreChallenge.business.dll
 C:\CodeWin\bookstoreChallenge\bookstoreChallenge.business\obj\Debug\net7.0\bookstoreChallenge.business.pdb
 C:\CodeWin\bookstoreChallenge\bookstoreChallenge.business\obj\Debug\net7.0\ref\bookstoreChallenge.business.dll
+C:\CodeWin\bookstoreChallenge\bookstoreChallenge.business\obj\Debug\net7.0\bookstoreChallenge.business.csproj.AssemblyReference.cache

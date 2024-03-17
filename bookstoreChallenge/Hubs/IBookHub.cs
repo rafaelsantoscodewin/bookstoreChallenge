@@ -1,8 +1,11 @@
-﻿namespace bookstoreChallenge.app.Hubs
+﻿using bookstoreChallenge.app.DTO.Book;
+
+namespace bookstoreChallenge.app.Hubs
 {
     public interface IBookHub
     {
-        Task GetBookById(Guid id);
-        Task GetAllBooks();
+        Task GetBookById(BookDTO book);
+        Task GetAllBooks(IEnumerable<BookDTO> books);
     }
 }
+ 

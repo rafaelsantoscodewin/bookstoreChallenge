@@ -36,3 +36,6 @@ C:\CodeWin\bookstoreChallenge\bookstoreChallenge\bin\Debug\net7.0\AutoMapper.dll
 C:\CodeWin\bookstoreChallenge\bookstoreChallenge\bin\Debug\net7.0\MediatR.dll
 C:\CodeWin\bookstoreChallenge\bookstoreChallenge\bin\Debug\net7.0\MediatR.Contracts.dll
 C:\CodeWin\bookstoreChallenge\bookstoreChallenge\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\CodeWin\bookstoreChallenge\bookstoreChallenge\bin\Debug\net7.0\bookstoreChallenge.business.dll
+C:\CodeWin\bookstoreChallenge\bookstoreChallenge\bin\Debug\net7.0\bookstoreChallenge.business.pdb
+C:\CodeWin\bookstoreChallenge\bookstoreChallenge\bin\Debug\net7.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
