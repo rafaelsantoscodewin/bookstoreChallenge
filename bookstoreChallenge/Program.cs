@@ -1,6 +1,11 @@
 using bookstoreChallenge.app.Configuration;
 using bookstoreChallenge.app.Hubs;
 using bookstoreChallenge.business.Core.Configuration;
+using bookstoreChallenge.business.Services.Book;
+using bookstoreChallenge.sql;
+using bookstoreChallenge.sql.Configuration;
+using bookstoreChallenge.sql.Data.Configuration;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -8,6 +13,11 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddSignalR().AddJsonProtocol();
 builder.Services.AddUseCases();
 builder.Services.AddAutoMapper(typeof(AutoMapperProfile));
+builder.Services.AddAutoMapper(typeof(SQLAutoMapperProfile));
+builder.Services.AddScoped<IBookService, BookService>();
+
+builder.Services.AddDbContext<BookContext>(
+    options => options.UseSqlServer("name=ConnectionStrings:DefaultConnection"));
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
