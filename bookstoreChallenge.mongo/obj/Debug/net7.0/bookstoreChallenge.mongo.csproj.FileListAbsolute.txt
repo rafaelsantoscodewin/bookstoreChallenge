@@ -9,3 +9,7 @@ C:\CodeWin\bookstoreChallenge\bookstoreChallenge.mongo\obj\Debug\net7.0\bookstor
 C:\CodeWin\bookstoreChallenge\bookstoreChallenge.mongo\obj\Debug\net7.0\refint\bookstoreChallenge.mongo.dll
 C:\CodeWin\bookstoreChallenge\bookstoreChallenge.mongo\obj\Debug\net7.0\bookstoreChallenge.mongo.pdb
 C:\CodeWin\bookstoreChallenge\bookstoreChallenge.mongo\obj\Debug\net7.0\ref\bookstoreChallenge.mongo.dll
+C:\CodeWin\bookstoreChallenge\bookstoreChallenge.mongo\obj\Debug\net7.0\bookstoreChallenge.mongo.csproj.AssemblyReference.cache
+C:\CodeWin\bookstoreChallenge\bookstoreChallenge.mongo\bin\Debug\net7.0\bookstoreChallenge.business.dll
+C:\CodeWin\bookstoreChallenge\bookstoreChallenge.mongo\bin\Debug\net7.0\bookstoreChallenge.business.pdb
+C:\CodeWin\bookstoreChallenge\bookstoreChallenge.mongo\obj\Debug\net7.0\bookstoreChallenge.mongo.csproj.CopyComplete

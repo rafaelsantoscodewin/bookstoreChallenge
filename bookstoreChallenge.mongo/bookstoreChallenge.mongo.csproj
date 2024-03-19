@@ -14,4 +14,8 @@
     <PackageReference Include="MongoDB.Driver.Core" Version="2.24.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\bookstoreChallenge.business\bookstoreChallenge.business.csproj" />
+  </ItemGroup>
+
 </Project>

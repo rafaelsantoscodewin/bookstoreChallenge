@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\bookstoreChallenge.mongo",
+    "\\bookstoreChallenge.mongo\\Data",
+    "\\bookstoreChallenge.mongo\\Data\\Configuration"
   ],
-  "SelectedNode": "\\bookstoreChallenge.sln",
+  "SelectedNode": "\\bookstoreChallenge.mongo\\Data\\Configuration\\MongoContext.cs",
   "PreviewInSolutionExplorer": false
 }
