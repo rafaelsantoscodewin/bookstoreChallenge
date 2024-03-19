@@ -1,0 +1,73 @@
+version: '3.8'
+
+services:  
+  sqlserverdb:
+    container_name: sqlserverdb
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    ports:
+      - 1433:1433
+    environment:
+      ACCEPT_EULA: "Y"
+      MSSQL_SA_PASSWORD: "!Docker123#"
+    volumes:
+      - sqlserverdbdata:/var/opt/mssql
+
+  mongodb:
+    container_name: mongodb
+    image: mongo:latest
+    ports:
+      - 27017:27017
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: "!Docker123#"
+    volumes:
+      - mongodbdata:/data/db
+  
+  elasticsearch:
+    container_name: elasticsearch
+    image: docker.elastic.co/elasticsearch/elasticsearch:7.9.2
+    ports:
+        - 9200:9200
+    volumes:
+        - elasticsearch-data:/usr/share/elasticsearch/data
+    environment:
+        - xpack.monitoring.enabled=true
+        - xpack.watcher.enabled=false
+        - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
+        - discovery.type=single-node
+  
+  kibana:
+    container_name: kibana
+    image: docker.elastic.co/kibana/kibana:7.9.2
+    ports: 
+        - 5601:5601
+    depends_on: 
+        - elasticsearch
+    environment: 
+        - ELASTICSEARCH_URL=http://localhost:9200
+  
+  bookstore.search:
+    container_name: bookstore.search
+    image: bookstore.search
+    ports: 
+        - "5008:80"
+        - "5009:443"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+;https://+
+      - ASPNETCORE_HTTPS_PORT=5009
+      - ASPNETCORE_Kestrel__Certificates__Default__Password=Docker123
+      - ASPNETCORE_Kestrel__Certificates__Default__Path=/https/bookstore.pfx
+      - ConnectionStrings__DefaultConnection=Server=sqlserverdb;Database=bookstore;User=sa;Password=!Docker123#;TrustServerCertificate=True;
+      - Serilog:WriteTo:0:Args:nodeUris=http://elasticsearch:9200
+    depends_on:
+        - elasticsearch
+        - kibana
+        - sqlserverdb
+    restart: always
+
+volumes:
+  sqlserverdbdata:
+  mysqldbdata:
+  mongodbdata:
+  elasticsearch-data:

@@ -6,6 +6,7 @@ using bookstoreChallenge.sql;
 using bookstoreChallenge.sql.Configuration;
 using bookstoreChallenge.sql.Data.Configuration;
 using Microsoft.EntityFrameworkCore;
+using System.Net;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -23,6 +24,8 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+ServicePointManager.SecurityProtocol |= SecurityProtocolType.Tls | SecurityProtocolType.Tls11 | SecurityProtocolType.Tls12;
 
 var app = builder.Build();
 
@@ -45,5 +48,11 @@ app.UseEndpoints(endpoints => {
 app.UseHttpsRedirection();
 
 app.MapControllers();
+
+using (var scope = app.Services.CreateScope())
+{
+    var dbContext = scope.ServiceProvider.GetRequiredService<BookContext>();
+    dbContext.Database.Migrate();
+}
 
 await app.RunAsync();
