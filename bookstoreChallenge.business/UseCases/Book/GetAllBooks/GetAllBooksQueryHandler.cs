@@ -1,67 +1,34 @@
 ﻿using bookstoreChallenge.business.Services.Book;
 using MediatR;
+using Microsoft.Extensions.Logging;
 using BookModel = bookstoreChallenge.business.Models.Book;
 
 namespace bookstoreChallenge.business.UseCases.Book.GetAllBooks
 {
     public class GetAllBooksQueryHandler : IRequestHandler<GetAllBooksQuery, List<BookModel.Book>>
     {
+        private readonly ILogger<GetAllBooksQueryHandler> _logger;
         private readonly IBookService _bookService;
 
-        public GetAllBooksQueryHandler(IBookService bookService)
+        public GetAllBooksQueryHandler(ILogger<GetAllBooksQueryHandler> logger, IBookService bookService)
         {
+            _logger = logger ?? throw new ArgumentNullException(nameof(logger));
             _bookService = bookService ?? throw new ArgumentNullException(nameof(bookService));
         }
 
         public async Task<List<BookModel.Book>> Handle(GetAllBooksQuery request, CancellationToken cancellationToken)
         {
-            //var book1 = new BookModel.Book
-            //{
-            //    Id = Guid.NewGuid(),
-            //    Title = "Title Teste 1",
-            //    Author = "Name Surname",
-            //    Publisher = "Publisher Test",
-            //    ISBN = "123456-789101112-13141516-1718192021",
-            //    Image = new ImageFile(),
-            //    Price = 24.55d,
-            //    Status = true,
-            //    Genre = "Fantasy"
 
-            //};
-
-            //var book2 = new BookModel.Book
-            //{
-            //    Id = Guid.NewGuid(),
-            //    Title = "Title Teste 2",
-            //    Author = "Name Surname",
-            //    Publisher = "Publisher Test",
-            //    ISBN = "123456-789101112-13141516-1718192021",
-            //    Image = new ImageFile(),
-            //    Price = 24.55d,
-            //    Status = true,
-            //    Genre = "Drama"
-
-            //};
-
-            //var book3 = new BookModel.Book
-            //{
-            //    Id = Guid.NewGuid(),
-            //    Title = "Title Teste 3",
-            //    Author = "Name Surname",
-            //    Publisher = "Publisher Test",
-            //    ISBN = "123456-789101112-13141516-1718192021",
-            //    Image = new ImageFile(),
-            //    Price = 24.55d,
-            //    Status = false,
-            //    Genre = "Adventure"
-
-            //};
-
-            //var response = new List<BookModel.Book> { book1, book2, book3 };
-
-            var response = await _bookService.GetAll();
-
-            return response.ToList();
+            try
+            {
+                var response = await _bookService.GetAll();
+                return response.ToList();
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError($"BookstoreChallenge - An error ocurred: {ex.Message}");
+                return null;
+            }
         }
     }
 }
