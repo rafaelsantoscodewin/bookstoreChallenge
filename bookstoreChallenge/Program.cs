@@ -6,14 +6,13 @@ using bookstoreChallenge.sql;
 using bookstoreChallenge.sql.Configuration;
 using bookstoreChallenge.sql.Data.Configuration;
 using Microsoft.EntityFrameworkCore;
-using Serilog.Sinks.Elasticsearch;
+using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Storage;
 using Serilog;
+using Serilog.Exceptions;
+using Serilog.Sinks.Elasticsearch;
 using System.Net;
 using System.Reflection;
-using Serilog.Exceptions;
-using Microsoft.AspNetCore.Identity;
-using Microsoft.EntityFrameworkCore.Storage;
-using Microsoft.EntityFrameworkCore.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
 

@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
@@ -27,6 +27,10 @@
   <ItemGroup>
     <ProjectReference Include="..\bookstoreChallenge.business\bookstoreChallenge.business.csproj" />
     <ProjectReference Include="..\bookstoreChallenge.sql\bookstoreChallenge.sql.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Controllers\" />
   </ItemGroup>
 
 </Project>
